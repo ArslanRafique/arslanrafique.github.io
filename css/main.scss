@@ -49,6 +49,37 @@ body,html{
 	/*font-family: 'Quicksand', sans-serif;*/
 }
 
+header{
+	position: absolute;
+    z-index: 100;
+    right: 0px;
+
+    ul {
+    	li {
+    		display: inline-block;
+    		position: relative;
+    		float: left;
+
+
+    		a {
+    			position: relative;
+    			float: left;
+    			color: #ffffff;
+    			padding: 20px;
+
+    			&:hover{
+    				background-color: #689f38;
+    				text-decoration: none;
+    			}
+
+    			&:visited{
+    				color: #dddddd;
+    			}
+    		}
+    	}
+    }
+}
+
 .wrapper {
 	border: none;
 	width: 100%;
@@ -206,3 +237,5 @@ body,html{
 		transform: scale(1.3);
 	}
 }
+
+
